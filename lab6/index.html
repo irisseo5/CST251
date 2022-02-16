@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 6: More complicated HTML</title>
 	<link rel="stylesheet" type="text/css" href="../css/site.css">
 	<link rel="stylesheet" type="text/css" href="css/lab.css">
+	<link rel="stylesheet" href="css/index.css">
+
 </head>
 <body>
+	<div id="content">
+	<form action="http://www.google.com/search" method="get" target="_new">
+		<label>Search: <input name="q" type="text"></label><br>
+		<label>Password: <input name="pw" type="password"></label><br>
+		<label>Biography: <textarea name="essay" placeholder="Please type a long ass essay here."></textarea></label><br>
+		<label>Agree: <input name="term" type="checkbox" value="yes">I agree to the terms.</label><br>
+		Gender:<br>
+		<label><input name="gender" type="radio" value="cat">Cat</label><br>
+		<label><input name="gender" type="radio" value="dog">Dog</label><br>
+		<label><input name="gender" type="radio" value="bird">Bird</label><br>
+
+		<label>Fav show:
+			<select name="show">
+				<option disabled selected>Please select</option>
+				<option value="seinfeld">Seinfeld</option>
+				<option value="breaking-bad">Breaking Bad</option>
+				<option value="expanse">The Expanse</option>
+				<option value="reservation-dog">Reservation Dogs</option>
+				<option value="sopranos">Sopranos</option>
+				<option value="the-office">The Office (US)</option>
+			</label><br>
+		<input type="submit" value="I'm feeling Lucky!">
+		</div>
+	</form>
+
+
+
 
 </body>
 </html>
