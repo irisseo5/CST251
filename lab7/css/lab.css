@@ -37,6 +37,7 @@
   }
 
   .minor-section{
+    width: 1200px;
     border: dotted 3px gray;
     color: gray;
     margin-top: 50px;
