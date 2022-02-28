@@ -1,0 +1,49 @@
+  body{
+    background-color: LightSteelBlue;
+    border: double 5px gray;
+    font-family: "Lucida Console", "Courier New", monospace;
+    padding: 60px;
+    font-size: 110%
+  }
+
+  div#main-image{
+    color: gray;
+  }
+
+  main{
+    background-color: Aliceblue;
+    padding: 30px;
+
+  }
+
+  .major-section{
+    color: CornflowerBlue;
+    font-size: 120%
+  }
+
+  img {
+    padding: 5px;
+    border-radius: 15px;
+    padding: 5px;
+    width: 40%;
+    height: auto;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+  }
+
+  h2{
+    color: CornflowerBlue;
+  }
+
+  .minor-section{
+    border: dotted 3px gray;
+    color: gray;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-right: 100px;
+    margin-left: 10px;
+    background-color: WhiteSmoke;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
