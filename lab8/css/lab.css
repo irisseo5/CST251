@@ -1,0 +1,57 @@
+body{
+  background-color: RosyBrown;
+  border: double 10px Linen;
+  font-family: Courier, monospace;
+  padding: 100px;
+  font-size: 110%
+}
+
+.main-section{
+  color: GhostWhite;
+}
+
+a:link, .main-section p{
+  color: black;
+  text-decoration: none;
+}
+
+a:visited{
+  text-decoration: underline;
+  color: GhostWhite;
+}
+
+h2{
+  color: Seashell;
+}
+
+div#instruction{
+  background-color: LemonChiffon; opacity: 0.8;
+  color: black;
+}
+
+.contents p{
+  border-left: solid 5px Seashell;
+  padding: 10px;
+
+}
+
+img{
+  padding: 5px;
+  border-radius: 15px;
+  padding: 5px;
+  width: 40%;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+.contents img{
+  transition: transform 2s;
+
+
+}
+
+.contents img:hover{
+  transform: scale(2.0);
+}
