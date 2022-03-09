@@ -1,0 +1,15 @@
+body{
+  background-color: #f0e6ef;
+  color: #231942;
+  border: double 4px #9c89b8;
+
+  font-family: 'Hubballi', cursive;
+  letter-spacing: normal;
+  font-size: 120%;
+  padding: 50px;
+  margin: 10px;
+}
+
+h1, h2{
+  color: #5e548e;
+}
