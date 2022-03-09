@@ -142,7 +142,8 @@ img{
   background-color: White;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin-bottom: 25px;
+  transition: transform 2s;
 }
 
 img:hover{
-  transition: transform 2s;
+  transform: scale(2.0);
