@@ -1,0 +1,15 @@
+body{
+  background-color: #f8e5c9;
+  border: solid 10px #025f24;
+  margin: 0;
+  padding: 0;
+}
+
+.main{
+  font-family: 'Noto Sans Display', sans-serif;
+  opacity: 0.8;
+  font-size: 400px;
+  position: relative;
+  display: flex;
+  text-align: center;
+}
