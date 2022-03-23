@@ -1,15 +1,44 @@
 body{
   background-color: #f8e5c9;
-  border: solid 10px #025f24;
   margin: 0;
   padding: 0;
+  border: solid 10px #025f24;
 }
 
-.main{
+.main p{
   font-family: 'Noto Sans Display', sans-serif;
   opacity: 0.8;
   font-size: 400px;
-  position: relative;
   display: flex;
-  text-align: center;
+  position: relative;
+  overflow: visible;
+}
+
+#t{
+  position: absolute;
+  left: 30%;
+  color: red;
+  opacity: 0.8;
+}
+
+#i {
+  position: absolute;
+  top: 30px;
+  left: 43%;
+  color: green;
+  opacity: 0.8;
+}
+#p {
+  position: absolute;
+  left: 52%;
+  color: goldenrod;
+  opacity: 0.8;
+}
+
+#s{
+  position: absolute;
+  top: 20px;
+  left: 65%;
+  color: darkolivegreen;
+  opacity: 0.8;
 }
