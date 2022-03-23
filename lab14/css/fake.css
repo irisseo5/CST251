@@ -1,73 +1,136 @@
 body{
-  background-color: #f8e5c9;
+  background-color: #f3ece2;
   margin: 0;
   padding: 0;
   border: solid 10px #025f24;
 }
 
-.main p{
+#content{
+  padding: 5px;
+}
+
+.main{
   font-family: 'Noto Sans Display', sans-serif;
-  opacity: 0.8;
-  font-size: 400px;
-  display: flex;
   position: relative;
-  overflow: visible;
+  display: flex;
+}
+
+.main p{
+  opacity: 0.8;
+  font-size: 450px;
+  margin-top: 30%;
+  margin-bottom: 20%;
 }
 
 #t{
-  position: absolute;
-  left: 30%;
-  color: red;
-  opacity: 0.8;
+  position: relative;
+  left: 25%;
+  color: #bb010b;
+  opacity: 0.9;
 }
 
 #i {
-  position: absolute;
-  top: 30px;
-  left: 43%;
-  color: green;
-  opacity: 0.8;
+  position: relative;
+  top: 55px;
+  left: 20%;
+  color: #004733;
+  opacity: 0.9;
 }
 #p {
-  position: absolute;
-  left: 52%;
+  position: relative;
+  left: 16%;
   color: goldenrod;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 #s{
-  position: absolute;
-  top: 20px;
-  left: 65%;
-  color: darkolivegreen;
+  position: relative;
+  top: 50px;
+  left:10%;
+  color: #1c731c;
+  opacity: 0.9;
+}
+
+.top{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+#logo img{
+  position: relative;
+  width: 50px;
+  height: auto;
+  margin-left: 20px;
+}
+
+#menu{
+  padding: 20px;
+  margin-top: 10px;
+  font-family: 'Fahkwang', sans-serif;
+}
+
+.top-links a{
+  color: #025f24;
+  text-decoration: none;
+  padding: 15px;
+}
+
+#mail-button{
+  border: solid 2px #025f24;
+  margin-right: 20px;
+
+}
+
+#mail-button p{
+  font-family: 'Pacifico', cursive;
+  margin-top: 0px;
+  margin-bottom: 3px;
+  margin-right: 20px;
+  margin-left: 20px;
+  letter-spacing: 1.2;
+  color: #025f24;
+
+}
+
+.sub-main{
+  font-family: 'Changa One', cursive;
+  font-size: 60px;
+  top: 20%;
+  color: #004733;
   opacity: 0.8;
 }
 
-#t{
+#hand-writing{
+  font-family: 'Cedarville Cursive', cursive;
+  color: #bb010b;
   position: absolute;
-  left: 30%;
-  color: red;
-  opacity: 0.8;
+  top: 28%;
+  font-size: 50px;
+  left: 26%;
 }
 
-#i {
+#holiday{
+  margin: 0px;
   position: absolute;
-  top: 30px;
-  left: 43%;
-  color: green;
-  opacity: 0.8;
-}
-#p {
-  position: absolute;
-  left: 52%;
-  color: goldenrod;
-  opacity: 0.8;
+  left: 27%;
+  top: 35%;
 }
 
-#s{
+#year{
+  margin: 0px;
   position: absolute;
-  top: 20px;
-  left: 65%;
-  color: darkolivegreen;
-  opacity: 0.8;
+  right: 23%;
+  top: 24%;
+
+}
+
+#arrow img{
+  position: absolute;
+  top: 20%;
+  right: 25%;
+  height: 35%;
+  width: 30%;
+  z-index: -1;
 }
