@@ -1,0 +1,122 @@
+body{
+  background-image:
+    linear-gradient(#61a5c2, #2a6f97, #013a63, #012a4a, black);
+    font-family: 'Playfair Display', serif;
+    color: GhostWhite;
+    border: 3px solid GhostWhite;
+}
+
+h1{
+  font-family: 'Playfair Display', serif;
+  font-weight: bold;
+  color: GhostWhite;
+  text-align: center;
+}
+
+h2{
+  font-family: 'Playfair Display', serif;
+  color: GhostWhite;
+  text-align: center;
+}
+
+ #container img{
+   width: 60%;
+   height: auto;
+   filter: grayscale(100%);
+   box-shadow: 4px 4px 5px black;
+ }
+
+ div #container{
+   position: relative;
+   text-align: center;
+ }
+
+ #container img:hover{
+   filter: grayscale(0);
+ }
+
+ div #one{
+   font-size: 100px;
+   font-weight: bold;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   color: GhostWhite;
+   text-shadow: 0 0 5px black;
+
+ }
+
+ #two img{
+   width: 300px;
+   height: 400px;
+   object-fit: cover;
+   float: right;
+   margin-right: 10%;
+   padding: 30px;
+ }
+
+ #second img{
+   width: 300px;
+   height: 400px;
+   object-fit: cover;
+   float: left;
+   margin-right: 10px;
+   margin-left: 10%;
+   padding: 30px;
+ }
+
+ #link{
+   border-radius: 0 0 25px 0;
+   border: 2px solid GhostWhite;
+   margin-left: 20%;
+   margin-right: 20%;
+   padding: 10px;
+   margin-bottom: 5%;
+   margin-top: 5%;
+}
+
+#link a{
+  text-decoration: none;
+  color: GhostWhite;
+}
+
+#two p{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+}
+
+#second p{
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 10%;
+
+}
+
+#main-content p{
+  text-align: left;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 5%;
+
+}
+
+#main-content{
+  text-align: center;
+}
+
+#main-content img{
+  padding: 5px;
+  padding: 5px;
+  width: 50%;
+  height: auto;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  transition: transform 2s;
+}
+
+#main-content img:hover{
+  transform: scale(2.0);
+}
