@@ -83,7 +83,7 @@ header{
 .left{
  border: solid 2px black;
  float: left;
- width: 17.5%;
+ width: 16.5%;
 }
 
 .main{
@@ -91,7 +91,7 @@ header{
   padding: 25px;
   border: solid 2px black;
   float: left;
-  width: 58.5%;
+  width: 57%;
 }
 
 .float:after{
