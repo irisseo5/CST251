@@ -1,0 +1,101 @@
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+body{
+  background-color: #ffb703;
+  font-size: 120%;
+  margin: 3%;
+  font-family: 'Architects Daughter', cursive;
+}
+
+@media screen and(max-width: 600px){
+  .left, .main, .right{
+    width: 100%;
+  }
+}
+
+aside{
+  background-color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+aside img{
+  max-width: 100%;
+  height: auto;
+
+}
+
+footer{
+  width: 100%;
+  border: solid 2px black;
+  margin-top: 3%;
+  text-align: center;
+}
+
+header{
+  background-color: white;
+  font-family: 'Alumni Sans Inline One', cursive;
+  font-size: 28px;
+  letter-spacing: 2;
+  text-align: center;
+  border: solid 2px black;
+  margin-bottom: 3%;
+}
+
+.right{
+  background-color: white;
+  border: solid 2px black;
+  width: 16.5%;
+}
+
+#links{
+  background-color: white;
+  overflow: hidden;
+  justify-content: space-between;
+}
+
+#links a{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  color: orange;
+}
+
+#links a:hover{
+  background-color: orange;
+  color: white;
+
+}
+
+.float{
+  width: 100%;
+}
+
+.left{
+ border: solid 2px black;
+ float: left;
+ width: 17.5%;
+}
+
+.main{
+  background-color: white;
+  padding: 25px;
+  border: solid 2px black;
+  float: left;
+  width: 58.5%;
+}
+
+.float:after{
+  content: "";
+  display: table;
+  clear: both;
+}
