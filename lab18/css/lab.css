@@ -52,7 +52,8 @@ header{
 .right{
   background-color: white;
   border: solid 2px black;
-  width: 16.5%;
+  width: 16.5;
+  flex-grow: 1;
 }
 
 #links{
@@ -84,6 +85,7 @@ header{
  border: solid 2px black;
  float: left;
  width: 16.5%;
+ flex-grow: 1;
 }
 
 .main{
@@ -92,6 +94,7 @@ header{
   border: solid 2px black;
   float: left;
   width: 57%;
+  flex-grow: 2.5;
 
 }
 
