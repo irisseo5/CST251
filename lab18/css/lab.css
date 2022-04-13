@@ -1,6 +1,5 @@
 .flex{
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -15,7 +14,10 @@ body{
 }
 
 @media screen and(max-width: 600px){
-  .left, .main, .right{
+   .float{
+     flex-wrap: wrap;
+   }
+  .float>*{
     width: 100%;!important;
   }
 }
@@ -53,7 +55,6 @@ header{
   background-color: white;
   border: solid 2px black;
   width: 16.5%;
-  flex-grow: 1;
 }
 
 #links{
@@ -85,7 +86,6 @@ header{
  border: solid 2px black;
  float: left;
  width: 16.5%;
- flex-grow: 1;
 }
 
 .main{
@@ -94,7 +94,6 @@ header{
   border: solid 2px black;
   float: left;
   width: 57%;
-  flex-grow: 2.5;
 
 }
 
