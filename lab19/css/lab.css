@@ -1,0 +1,43 @@
+body{
+  background-color: #f0efeb;
+  font-size: 130%;
+  border: 4px double #3d405b;
+}
+
+p, a{
+  font-family: 'Gochi Hand', cursive;
+  font-size: 1.3rem;
+}
+
+h1, h2{
+  color: #457b9d;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.col-sm-4{
+    text-align: center;
+}
+
+
+.col-sm-4 img{
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  margin-bottom: 2.5rem;
+}
+
+.col-sm-8 img{
+  width: 50%;
+  height: auto;
+  transition: transform 2s;
+}
+
+.col-sm-8 img:hover{
+  transform: scale(2.0);
+}
+
+.navbar{
+  padding-left: 0.5rem;
+  justify-content: space-between;
+  gap: 1.5rem;
+}
