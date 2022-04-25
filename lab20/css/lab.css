@@ -1,0 +1,39 @@
+body{
+  background-color: #283618;
+  border: 4px solid #606c38;
+  margin: 5%;
+  font-size: 120%;
+}
+
+#challenge, #results, #problems{
+  background-color: #dda15e;
+  color: black;
+  padding: 5%;
+  margin: 2%;
+}
+
+#results{
+  text-align: center;
+}
+
+
+#results img{
+  width: 50%;
+  height: auto;
+}
+
+h1{
+  font-family: 'Bangers', cursive;
+  color: #fefae0;
+  letter-spacing: 2.5;
+}
+
+h2{
+  font-family: 'Tapestry', cursive;
+  color: black;
+  text-align: left;
+}
+
+p{
+  font-family: 'Caveat', cursive;
+}
