@@ -1,0 +1,23 @@
+#carmel-content{
+  columns: 2;
+}
+
+#carmel{
+  height: 100%;
+}
+
+#column1{
+  position: relative;
+  padding: 3%;
+
+}
+
+#column2{
+  position: relative;
+  padding: 3%;
+  left: 50%;
+}
+
+#big-sur{
+
+}
